@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minorprojrct1</title>
+</head>
+<style>
+
+    body{
+        margin: 0;
+        color: white;
+        background-color: rgb(36, 31, 70);
+    }
+    main{
+        background-color: rgb(36, 31, 70);
+    }
+    .maindiv{
+        margin-left: 130px;
+        margin-right: 130px;
+        padding: 50px 20px;
+        background-color: rgba(52, 38, 144, 0.641);
+        border-radius: 15px;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(52, 38, 144, 0.641);
+        font-size: 18px;
+        margin-bottom: 110px;
+    }
+    @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+    .header p {
+        text-align: center;
+        margin: 5px 0;
+    }
+    .img1 {
+        margin-bottom: 10px;
+    }
+}
+    .header p,
+    .img1{
+        cursor: pointer;
+    }
+    .header p:hover {
+    color: gold;
+    text-decoration: underline;
+}
+    .img1{
+        height: 80px;
+    }
+    .line1{
+        color: gold;
+        margin: 0;
+    }
+    .line2{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    .line3{
+        color: white;
+    }
+    button{
+        padding: 10px 15px;
+        background-color: goldenrod;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 17px;
+        transition: background-color 0.25s;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgb(229, 174, 36);
+    }
+    button:active{
+        background-color: rgb(244, 186, 40);
+    }
+    .maintextdiv{
+        display: inline-block;
+        margin-right: 200px;
+    }
+    .imgdiv{
+        display: inline-block;
+    }
+    .imgdiv img{
+        height: 200px;
+    }
+    section{
+        margin-top: 24px;
+        background-color: rgba(52, 38, 144, 0.641);
+        padding: 15px 15px;
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .line4{
+        font-size: 18px;
+        font-weight: bold;
+        color: gold;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    @media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+}
+    .icons{
+        height: 20px;
+        width: 20px;
+        object-fit: cover;
+    }
+    .footerp {
+        color: white;
+        cursor: pointer;
+    }
+</style>
+<body>
+
+
+
+
+<header>
+    <div><img src="logo-mp1.png" class="img1"></div>
+    <div class="header"><p>Home</p></div>
+    <div class="header"><p>Feature</p></div>
+    <div class="header"><p>Course</p></div>
+    <div class="header"><p>About</p></div>
+    <div class="header"><p>Contact</p></div>
+</header>
+
+
+<main>
+
+<div class="maindiv">
+    <div class="maintextdiv">
+        <h1 class="line1">Any Ideas?</h1>
+        <p class="line2">This is just a placeholder.</p>
+        <p class="line3">You can remove any link to our website template, you're free to use this website template without linking back to us.</p>
+        <button>TRY IT NOW</button>
+     </div>
+     <div class="imgdiv"><img src="box-mp1.png"></div>
+</div>
+</main>
+
+
+
+
+<section>
+    <p class="line4">Discover New Possibilities</p>
+    <p class="line5">Explore our platform designed to inspire creativity, foster innovation, and support your journey toward success. We offer a comprehensive suite of tools, expert-led courses, insightful tutorials, and resources tailored to meet your needs. Whether you're a beginner or a seasoned professional, our platform empowers you to learn, create, and excel. Join our growing community of visionaries and achievers, and take the next step in transforming your ideas into impactful realities today.</p>
+</section>
+
+
+
+<footer>
+    <div class="footerp">
+      Raj <sup> &copy;</sup> 2024 All Rights Reserved
+    </div>
+    <div>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <img src="icons8-facebook.svg" class="icons">
+        </a>
+    </div>
+    <div>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <img src="icons8-instagram (1).svg" class="icons">
+        </a>
+    </div>
+    <div>
+        <a href="https://google.com" target="_blank" aria-label="Google">
+            <img src="icons8-google (1).svg" class="icons">
+        </a>
+    </div>
+    <div>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <img src="icons8-twitter-logo (1).svg" class="icons">
+        </a>
+    </div>
+  </footer>
+</body>
+</html>
